@@ -1,0 +1,23 @@
+{
+    "name": "ceive/time-period",
+    "description": "Periodicity by php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lexus27",
+            "email": "lexus27.khv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ceive/time": "dev-master",
+        "ceive/text-plural": "dev-master",
+        "phpunit/phpunit": "5.7.x-dev"
+    },
+  	"autoload": {
+	  "psr-4": {
+		"ceive\\time\\periodicity\\": "src/"
+	  }
+	}
+}
